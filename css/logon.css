@@ -1,0 +1,129 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:26.67vw;
+}
+html,body{
+    height:100%;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    background:#fff;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+header img{
+    width:3.75rem;
+    height:.8rem;
+    display:block;
+}
+/*bottom*/
+.bottom{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    margin: -.1rem auto 0;
+    background: #FFF;
+    border-radius: 8px 8px 0 0;
+}
+.logo{
+    width:.48rem;
+    height:.48rem;
+    display:block;
+    padding:.3rem 0;
+    margin:0 auto;
+}
+.logon{
+    padding:0 .39rem;
+}
+.logon_text{
+    overflow:hidden;
+    margin-bottom:.19rem;
+}
+.logon .iconfont{
+    float:left;
+    font-size:.2rem;
+    line-height:.61rem;
+    color:#d3d6e0;
+    margin-right:.24rem;
+    margin-left:.08rem;
+}
+.logon_text{
+    border-bottom:1px solid #eeeeee;
+}
+.int{
+    display:block;
+    width:60%;
+    height:.61rem;
+    background:#e8f0fe;
+    border:0;
+    outline:none;
+}
+.code{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+    -webkit-align-items:center;
+}
+.code i{
+    display:block;
+    width:.48rem;
+    height:.48rem;
+    background-image:url("../img/unlook.svg");
+    float:right;
+    margin:0 auto;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.logon_a{
+    display:block;
+    font-size:.12rem;
+    float:left;
+}
+.logon_logon_a{
+    overflow:hidden;
+    margin-bottom:.24rem;
+}
+#register{
+    float:right;
+}
+.logon_logon{
+    padding:0 .32rem;
+}
+#logon_btn{
+    display:block;
+    font-size:.16rem;
+    text-align:center;
+    background:#f57f83;
+    color:#fff;
+    border-radius:.28rem;
+    height:.48rem;
+    line-height:.48rem;
+}
+.more{
+    padding:.4rem .32rem;
+}
+.more_QQ{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+}
+.more_QQ img{
+    display:block;
+    margin-bottom:.16rem;
+}
+.more_QQ dd{
+    font-size:.12rem;
+    text-align:center;
+}
+.more_QQ dl:nth-child(2){
+    margin:0 .3rem;
+}
